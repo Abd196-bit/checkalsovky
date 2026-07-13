@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
+  <rect width="1440" height="810" fill="#181818"/>
+  <rect width="1440" height="34" fill="#323233"/>
+  <circle cx="18" cy="17" r="6" fill="#ff5f57"/><circle cx="38" cy="17" r="6" fill="#febc2e"/><circle cx="58" cy="17" r="6" fill="#28c840"/>
+  <text x="720" y="22" fill="#d8d8d8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" text-anchor="middle">checkalsovky.c - checkfish - Visual Studio Code</text>
+  <rect y="34" width="52" height="776" fill="#202020"/><rect x="52" y="34" width="230" height="776" fill="#252526"/>
+  <g fill="none" stroke="#a0a0a0" stroke-width="2"><path d="M17 63h18v16H17zM20 59h12v4H20z"/><circle cx="26" cy="112" r="8"/><path d="M32 118l6 6M18 154h16M18 160h16M18 166h16"/></g>
+  <text x="68" y="65" fill="#bbbbbb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" font-weight="600">EXPLORER</text>
+  <text x="68" y="95" fill="#e2e2e2" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">⌄ CHECKFISH</text>
+  <text x="84" y="123" fill="#cccccc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">⌄ src</text>
+  <text x="102" y="148" fill="#d7ba7d" font-family="Menlo,Consolas,monospace" font-size="12">C</text><text x="122" y="148" fill="#cccccc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">checkalsovky.c</text>
+  <text x="84" y="175" fill="#cccccc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">Makefile</text>
+  <text x="84" y="201" fill="#cccccc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">README.md</text>
+  <rect x="282" y="34" width="1158" height="36" fill="#1f1f1f"/><rect x="282" y="68" width="1158" height="1" fill="#333"/>
+  <rect x="282" y="34" width="178" height="36" fill="#181818"/><text x="302" y="57" fill="#d7ba7d" font-family="Menlo,Consolas,monospace" font-size="12">C</text><text x="323" y="57" fill="#e5e5e5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13">checkalsovky.c</text>
+  <g font-family="Menlo,Consolas,monospace" font-size="15">
+    <g fill="#858585" text-anchor="end"><text x="324" y="104">1</text><text x="324" y="128">2</text><text x="324" y="152">3</text><text x="324" y="176">4</text><text x="324" y="200">5</text><text x="324" y="224">6</text><text x="324" y="248">7</text><text x="324" y="272">8</text><text x="324" y="296">9</text><text x="324" y="320">10</text><text x="324" y="344">11</text><text x="324" y="368">12</text><text x="324" y="392">13</text><text x="324" y="416">14</text><text x="324" y="440">15</text><text x="324" y="464">16</text><text x="324" y="488">17</text><text x="324" y="512">18</text><text x="324" y="536">19</text><text x="324" y="560">20</text></g>
+    <text x="348" y="104" fill="#c586c0">#define</text><text x="420" y="104" fill="#9cdcfe"> _POSIX_C_SOURCE</text><text x="565" y="104" fill="#b5cea8"> 200809L</text>
+    <text x="348" y="152" fill="#c586c0">#include</text><text x="425" y="152" fill="#ce9178"> &lt;errno.h&gt;</text>
+    <text x="348" y="176" fill="#c586c0">#include</text><text x="425" y="176" fill="#ce9178"> &lt;fcntl.h&gt;</text>
+    <text x="348" y="200" fill="#c586c0">#include</text><text x="425" y="200" fill="#ce9178"> &lt;signal.h&gt;</text>
+    <text x="348" y="224" fill="#c586c0">#include</text><text x="425" y="224" fill="#ce9178"> &lt;stdbool.h&gt;</text>
+    <text x="348" y="248" fill="#c586c0">#include</text><text x="425" y="248" fill="#ce9178"> &lt;stdio.h&gt;</text>
+    <text x="348" y="272" fill="#c586c0">#include</text><text x="425" y="272" fill="#ce9178"> &lt;stdlib.h&gt;</text>
+    <text x="348" y="296" fill="#c586c0">#include</text><text x="425" y="296" fill="#ce9178"> &lt;string.h&gt;</text>
+    <text x="348" y="320" fill="#c586c0">#include</text><text x="425" y="320" fill="#ce9178"> &lt;sys/select.h&gt;</text>
+    <text x="348" y="344" fill="#c586c0">#include</text><text x="425" y="344" fill="#ce9178"> &lt;sys/types.h&gt;</text>
+    <text x="348" y="368" fill="#c586c0">#include</text><text x="425" y="368" fill="#ce9178"> &lt;sys/wait.h&gt;</text>
+    <text x="348" y="392" fill="#c586c0">#include</text><text x="425" y="392" fill="#ce9178"> &lt;time.h&gt;</text>
+    <text x="348" y="416" fill="#c586c0">#include</text><text x="425" y="416" fill="#ce9178"> &lt;unistd.h&gt;</text>
+    <text x="348" y="464" fill="#c586c0">#define</text><text x="420" y="464" fill="#9cdcfe"> LINE_MAX_LEN</text><text x="555" y="464" fill="#b5cea8"> 4096</text>
+    <text x="348" y="488" fill="#c586c0">#define</text><text x="420" y="488" fill="#9cdcfe"> MOVE_MAX_LEN</text><text x="555" y="488" fill="#b5cea8"> 16</text>
+    <text x="348" y="536" fill="#569cd6">typedef struct</text><text x="462" y="536" fill="#d4d4d4"> {</text>
+    <text x="372" y="560" fill="#569cd6">char</text><text x="416" y="560" fill="#9cdcfe"> move</text><text x="468" y="560" fill="#d4d4d4">[MOVE_MAX_LEN];</text>
+    <text x="372" y="584" fill="#569cd6">int</text><text x="408" y="584" fill="#9cdcfe"> score</text><text x="462" y="584" fill="#d4d4d4">;</text>
+    <text x="372" y="608" fill="#569cd6">int</text><text x="408" y="608" fill="#9cdcfe"> depth</text><text x="462" y="608" fill="#d4d4d4">;</text>
+    <text x="348" y="632" fill="#d4d4d4">} </text><text x="365" y="632" fill="#4ec9b0">Candidate</text><text x="445" y="632" fill="#d4d4d4">;</text>
+  </g>
+  <rect x="282" y="780" width="1158" height="30" fill="#007acc"/><text x="302" y="800" fill="white" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12">main*   C   UTF-8   LF</text>
+  <path d="M954 380l0 66 18-16 13 34 13-6-14-32 24-1z" fill="#ffffff" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+</svg>

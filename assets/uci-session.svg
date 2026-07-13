@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760">
+  <rect width="1440" height="760" rx="8" fill="#101315"/>
+  <rect width="1440" height="42" rx="8" fill="#25292c"/><rect y="34" width="1440" height="8" fill="#25292c"/>
+  <circle cx="24" cy="21" r="7" fill="#ff5f57"/><circle cx="48" cy="21" r="7" fill="#febc2e"/><circle cx="72" cy="21" r="7" fill="#28c840"/>
+  <text x="720" y="27" fill="#c8c8c8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" text-anchor="middle">checkalsovky — UCI session</text>
+  <g font-family="Menlo,Consolas,monospace" font-size="20">
+    <text x="44" y="92" fill="#5ee38b">$</text><text x="68" y="92" fill="#e6e6e6"> ./checkalsovky</text>
+    <text x="44" y="132" fill="#62b4ff">uci</text>
+    <text x="44" y="172" fill="#e6e6e6">id name checkalsovky</text>
+    <text x="44" y="206" fill="#e6e6e6">id author checkalsovky</text>
+    <text x="44" y="240" fill="#d6b8ff">option name Power type spin default 6 min 1 max 10</text>
+    <text x="44" y="274" fill="#d6b8ff">option name CandidateLines type spin default 5 min 1 max 10</text>
+    <text x="44" y="308" fill="#d6b8ff">option name SafetyMargin type spin default 25 min 0 max 1000</text>
+    <text x="44" y="342" fill="#5ee38b">uciok</text>
+    <text x="44" y="396" fill="#62b4ff">isready</text>
+    <text x="44" y="430" fill="#5ee38b">readyok</text>
+    <text x="44" y="484" fill="#62b4ff">position startpos</text>
+    <text x="44" y="518" fill="#62b4ff">go movetime 1000</text>
+    <text x="44" y="572" fill="#858d94"># Stockfish and Reckless analyse the same position</text>
+    <text x="44" y="626" fill="#5ee38b">bestmove e2e4</text>
+    <text x="44" y="680" fill="#62b4ff">quit</text>
+  </g>
+</svg>

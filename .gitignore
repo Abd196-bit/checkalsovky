@@ -1,0 +1,7 @@
+checkalsovky
+checkalsovky_engine
+*.o
+stockfish/src/stockfish
+reckless/reckless
+reckless/target/
+.DS_Store

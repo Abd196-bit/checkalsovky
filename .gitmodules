@@ -1,0 +1,6 @@
+[submodule "stockfish"]
+	path = stockfish
+	url = https://github.com/official-stockfish/Stockfish.git
+[submodule "reckless"]
+	path = reckless
+	url = https://github.com/codedeliveryservice/Reckless.git
